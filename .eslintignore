@@ -1,0 +1,4 @@
+# .eslintignore
+node_modules
+babel.config.js
+commitlint.config.js
