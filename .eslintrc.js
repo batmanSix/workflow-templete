@@ -17,4 +17,4 @@ module.exports = {
     'arrow-spacing': 2,
     'no-trailing-spaces': 2
   }
-}
+};
