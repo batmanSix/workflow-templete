@@ -11,5 +11,10 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: ['vue'],
-  rules: {}
+  rules: {
+    'no-debugger': 2,
+    'default-case': 2,
+    'arrow-spacing': 2,
+    'no-trailing-spaces': 2
+  }
 }
