@@ -8,7 +8,6 @@ const AddSCADS = () => {
     case 2:
       doSomething()
       break
-
     // no default
   }
 }
