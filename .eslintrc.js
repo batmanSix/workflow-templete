@@ -11,10 +11,14 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: ['vue'],
+  // 0,1,2  0不验证当前规则 1 waring 2error
   rules: {
-    'no-debugger': 2,
+    'no-debugger': 2, // 禁止使用debugger
     'default-case': 2,
     'arrow-spacing': 2,
-    'no-trailing-spaces': 2
+    'no-trailing-spaces': 2,
+    'no-var': 2, // 禁止使用var
+    camelcase: ['error']
+    //camelcase: ['error', { allow: ['aa_bb'] }]
   }
 };

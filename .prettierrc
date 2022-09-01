@@ -4,6 +4,5 @@
   "trailingComma": "none",
   "singleQuote": true,
   "arrowParens": "avoid",
-  "quoteProps": "as-needed",
-  "prettier.eslintIntegration": false
+  "quoteProps": "as-needed"
 }

@@ -1,4 +1,4 @@
-const AddSCADS = () => {
+const color = () => {
   const foo = 1;
   switch (foo) {
     case 1:
@@ -12,6 +12,8 @@ const AddSCADS = () => {
   }
 };
 
-const doSomething = () => {};
+const doSomething = () => {
+  console.log(1231);
+};
 
-AddSCADS();
+color();

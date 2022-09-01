@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "eslint --fix ./ --ext .ts --ext .js",
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
     "prepare": "husky install",
     "commit": "git add . && git-cz"
   },
@@ -16,7 +16,6 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^17.1.0",
     "@vue/cli-plugin-babel": "~4.5.8",
-    "@vue/cli-plugin-eslint": "~4.5.8",
     "@vue/cli-service": "~4.5.8",
     "commitizen": "^4.2.5",
     "commitlint": "^17.1.2",
