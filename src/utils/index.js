@@ -1,17 +1,17 @@
 const AddSCADS = () => {
-  const foo = 1
+  const foo = 1;
   switch (foo) {
     case 1:
-      doSomething()
-      break
+      doSomething();
+      break;
 
     case 2:
-      doSomething()
-      break
+      doSomething();
+      break;
     // no default
   }
-}
+};
 
-const doSomething = () => {}
+const doSomething = () => {};
 
-AddSCADS()
+AddSCADS();

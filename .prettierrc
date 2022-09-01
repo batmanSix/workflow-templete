@@ -1,7 +1,9 @@
 {
-  "semi": false,
+  "semi": true,
   "tabWidth": 2,
   "trailingComma": "none",
   "singleQuote": true,
-  "arrowParens": "avoid"
+  "arrowParens": "avoid",
+  "quoteProps": "as-needed",
+  "prettier.eslintIntegration": false
 }

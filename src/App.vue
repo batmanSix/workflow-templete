@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
 
 export default {
   name: 'App',
@@ -15,12 +15,12 @@ export default {
   },
   methods: {
     createImageBitmap() {
-      console.log(21313)
-      console.log('@1312')
-      crossOriginIsolated
+      console.log(21313);
+      console.log('@1312');
+      crossOriginIsolated;
     }
   }
-}
+};
 </script>
 
 <style>
