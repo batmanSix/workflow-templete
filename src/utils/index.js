@@ -13,7 +13,7 @@ const color = () => {
 };
 
 const doSomething = () => {
-  console.log(1231);
+  console.log(1241231);
 };
 
 color();
