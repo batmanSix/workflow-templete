@@ -16,7 +16,7 @@ export default {
   methods: {
     createImageBitmap() {
       console.log(21313);
-
+      console.log("@1312");;
       crossOriginIsolated;
     }
   }
